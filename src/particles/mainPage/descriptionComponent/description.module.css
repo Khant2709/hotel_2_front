@@ -1,0 +1,36 @@
+.wrapperMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.wrapperMain a {
+  text-decoration: none;
+}
+
+.containerDescription {
+  font-size: calc(16px + (24 - 16) * (100vw - 480px) / (1920 - 480));
+
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 2rem;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+@media (max-width: 900px) {
+  .wrapperMain {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapperMain {
+    gap: 1rem;
+  }
+}

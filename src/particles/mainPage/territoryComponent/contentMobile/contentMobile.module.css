@@ -1,0 +1,51 @@
+.wrapperContent {
+    width: 100%;
+
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+}
+
+.containerText {
+    color: var(--colorMainTextBlack);
+    font-size: calc(16px + (18 - 16) * (100vw - 480px) / (768 - 480));
+    text-align: center;
+
+    padding: 2rem;
+    background-color: var(--colorBrown2);
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiperSlide, .image {
+    width: 250px;
+    height: 250px;
+}
+
+.image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 12px;
+}
+
+@media (max-width: 480px) {
+    .containerText {
+        padding: 1.5rem;
+    }
+
+    .swiperSlide, .image {
+        width: 200px;
+        height: 200px;
+    }
+}
