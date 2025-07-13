@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://shikarnyivid.ru
+Host: https://borodacha.ru
 
 # Sitemaps
-Sitemap: https://shikarnyivid.ru/sitemap.xml
+Sitemap: https://borodacha.ru/sitemap.xml

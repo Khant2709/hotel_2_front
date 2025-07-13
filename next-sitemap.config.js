@@ -1,5 +1,5 @@
 module.exports = {
-    siteUrl: 'https://shikarnyivid.ru', // Замените на URL вашего сайта
+    siteUrl: 'https://borodacha.ru', // Замените на URL вашего сайта
     generateRobotsTxt: true, // Создавать robots.txt
     changefreq: 'daily', // Частота изменения
     priority: 0.7, // Приоритет статичных страниц
